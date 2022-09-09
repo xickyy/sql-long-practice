@@ -46,3 +46,30 @@ values
 (0),
 (0)
 ;
+
+UPDATE customers SET points = points + 4 WHERE phone = '222-222-2222';
+
+insert into coffee_orders (
+   is_redeemed 
+)
+values 
+(0),
+(0),
+(0),
+(0)
+;
+
+UPDATE customers SET points = points + 4 WHERE phone = '111-111-1111';
+
+insert into coffee_orders (
+   is_redeemed 
+)
+values 
+(0),
+(0),
+(0),
+(0)
+;
+
+SELECT points FROM customers WHERE phone = "222-222-2222"
+
